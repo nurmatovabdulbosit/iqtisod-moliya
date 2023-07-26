@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     # tashqi app bular
 
     # ichki applar yani man yaratgan
-    'post'
+    'post',
+
 ]
 
 MIDDLEWARE = [
@@ -72,7 +73,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
-
+# xavfsizlik buyicha malumot
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
