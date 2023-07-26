@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # tashqi app bular
+
+    # ichki applar yani man yaratgan
+    'post'
 ]
 
 MIDDLEWARE = [
