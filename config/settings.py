@@ -24,11 +24,11 @@ SECRET_KEY = 'django-insecure-y$mc#y#li+*^lu!_gxgts-)_a+s2*wg+*86o*r6j+(1b5d@0++
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+# xatoliklarni korsatib turadi. Buni onlaynga yuklaganda berkitib qoyamiz. Loyihani kormaslik uchun.
 ALLOWED_HOSTS = []
+# host degan narsa bor mislo kun.uz kalit soz. bu yerda qaysi hostlarda ishlaydi shuni yozamiz ['kun.uz'] shu tartibda yozamiz.
 
-
-# Application definition
+# Application definition tayyor urnatilgan applar uzimiz yaratga applarni yozib ketishimis kerak bulmasa ishlamaydi.
 
 INSTALLED_APPS = [
     'django.contrib.admin',
